@@ -1,0 +1,2 @@
+256_densa_D10_b | naive | 10.9841 ms | 4.67188 MB
+256_densa_D10_b | strassen | 1777.4772 ms | 4.67188 MB

@@ -1,0 +1,2 @@
+64_dispersa_D10_b | naive | 0.1657 ms | 4.64453 MB
+64_dispersa_D10_b | strassen | 36.1956 ms | 4.64453 MB

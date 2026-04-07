@@ -1,5 +1,16 @@
-\begin{mdframed}
-    \textbf{La extensión máxima para esta sección es un párrafo breve (máximo 1/4 de página).}
-\end{mdframed}
+Los resultados obtenidos en este estudio muestran que la teoría de la complejidad algorítmica 
+se refleja de manera consistente en la práctica, aunque con algunas diferencias. 
+En el caso de los algoritmos de ordenamiento, se confirmó que algoritmos $O(n \log n)$ como Merge Sort, Sort, y Quick Sort escalan de forma más eficiente, solo que este último puede variar más según la distrubució y tamaño.
+Esto se debe por la posición del pivote que genera aleatoriedad.  
+Entre ellos, Sort se posiciona como la mejor alternativa, 
+gracias a las optimizaciones de su implementación.
 
-Escriba una conclusión breve que interprete los resultados más importantes. Cada afirmación debe estar respaldada por los datos presentados.
+En la multiplicación de matrices, Strassen demuestra su superioridad teórica sobre el método Naive al reducir la complejidad a $O(n^{2.81})$. 
+No obstante, en tamaños pequeños su sobrecarga recursiva hace que Naive sea más competitivo, lo que muestra que la eficiencia práctica 
+depende no solo de la complejidad asintótica, sino también de la estructura del algoritmo y del contexto de ejecución.
+
+A un nivel más general, este trabajo evidencia la relevancia del análisis experimental como complemento indispensable de la teoría en el aprendizaje de este curso. 
+Las medidas de tiempo y memoria confirman que la elección del algoritmo adecuado no depende únicamente de su clasificación teórica, 
+sino también del tamaño de la entrada, la naturaleza de los datos y la infraestructura disponible. 
+De este modo, los hallazgos contribuyen a un mejor entendimiento de cómo teoría y práctica se entrelazan en la computación, 
+y resaltan la necesidad de evaluar algoritmos en escenarios reales antes de aplicarlos.

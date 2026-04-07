@@ -1,0 +1,2 @@
+64_dispersa_D0_c | naive | 0.2950 ms | 4.64453 MB
+64_dispersa_D0_c | strassen | 36.3990 ms | 4.64453 MB

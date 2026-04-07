@@ -1,0 +1,2 @@
+256_densa_D0_c | naive | 11.0489 ms | 4.66797 MB
+256_densa_D0_c | strassen | 1782.6212 ms | 4.67188 MB

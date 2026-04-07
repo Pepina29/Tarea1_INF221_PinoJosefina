@@ -1,0 +1,2 @@
+256_diagonal_D10_c | naive | 11.4437 ms | 4.67188 MB
+256_diagonal_D10_c | strassen | 1867.8782 ms | 4.67188 MB

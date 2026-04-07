@@ -1,0 +1,3 @@
+100000_aleatorio_D7_c.txt | merge | 10.1089 ms | 0.765625 MB
+100000_aleatorio_D7_c.txt | quick | 6.2519 ms | 0 MB
+100000_aleatorio_D7_c.txt | sort | 4.6541 ms | 0 MB

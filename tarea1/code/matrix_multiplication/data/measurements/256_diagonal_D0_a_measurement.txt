@@ -1,0 +1,2 @@
+256_diagonal_D0_a | naive | 10.6308 ms | 4.67188 MB
+256_diagonal_D0_a | strassen | 1867.4662 ms | 4.67188 MB

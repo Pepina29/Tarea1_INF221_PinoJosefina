@@ -1,5 +1,25 @@
-\begin{mdframed}
-    \textbf{La extensión máxima para esta sección es de media página.}
-\end{mdframed}
+Para analizar la complejidad de los algoritmos es necesario describir las especificaciones tanto del hardware como del entorno de software, de manera que los experimentos puedan ser reproducidos en condiciones similares. A continuación, se detalla la infraestructura utilizada:
 
-Especifique el hardware y software utilizado para realizar los experimentos (por ejemplo, procesador, memoria RAM, sistema operativo, compilador y versión). Incluya una mención breve de los datasets utilizados, los cuales son los descritos en el enunciado de la tarea.
+\textbf{Hardware:}
+\begin{itemize}
+    \item Memoria RAM: 16 GB DDR4 @ 2666 MHz
+    \item Procesador: Intel(R) Core(TM) i3-10100F CPU @ 3.60 GHz
+    \item Almacenamiento: Disco duro de 932 GB y SSD de 223 GB
+\end{itemize}
+
+\textbf{Software:}
+\begin{itemize}
+    \item Intérprete de comandos: GNU Bash 5.1.16 (x86\_64-pc-linux-gnu)
+    \item Sistema Operativo: Ubuntu 22.04.3 LTS
+    \item Entorno de ejecución: Windows Subsystem for Linux (WSL) sobre Visual Studio Code
+    \item Compilador: g++ (Ubuntu 9.3.0-17ubuntu1\textasciitilde20.04) 9.3.0
+    \item Compilación: 
+    \begin{itemize}
+        \item \texttt{-std=c++17 -O2}
+    \end{itemize}
+\end{itemize}
+
+
+
+\textbf{*Para este informe no se utilizaron los arreglos de tamaño $10^7$ ni tampoco las matrices de tamaño 1024, ya que el tiempo de ejecución era muy elevado.} \\
+

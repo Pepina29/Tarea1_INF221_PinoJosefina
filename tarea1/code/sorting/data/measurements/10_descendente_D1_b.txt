@@ -1,0 +1,3 @@
+10_descendente_D1_b.txt | merge | 0.0023 ms | 0 MB
+10_descendente_D1_b.txt | quick | 0.0013 ms | 0 MB
+10_descendente_D1_b.txt | sort | 0.0009 ms | 0 MB

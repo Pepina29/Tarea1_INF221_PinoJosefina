@@ -1,0 +1,3 @@
+1000_aleatorio_D1_b.txt | merge | 0.1016 ms | 0 MB
+1000_aleatorio_D1_b.txt | quick | 0.0577 ms | 0 MB
+1000_aleatorio_D1_b.txt | sort | 0.0149 ms | 0 MB

@@ -1,0 +1,3 @@
+1000_descendente_D7_a.txt | merge | 0.12 ms | 0 MB
+1000_descendente_D7_a.txt | quick | 0.0305 ms | 0 MB
+1000_descendente_D7_a.txt | sort | 0.0049 ms | 0 MB
