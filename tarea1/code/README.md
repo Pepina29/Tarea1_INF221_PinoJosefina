@@ -2,7 +2,7 @@
 
 ## Entrega
 
-La entrega se realiza vía **aula.usm.cl** en formato `.zip`.
+La entrega se realiza por medio de un .txt que contiene los link para github y onedrive.
 
 ## Multiplicación de matrices
 * Naive: Implementa la multiplicación de matrices usando tres bucles anidados. Calcula cada elemento como la suma de productos fila × columna.
