@@ -38,7 +38,7 @@ for file in files:
 
 df = pd.DataFrame(data_list)
 
-# === 1. Graficar tiempos ===
+# === Graficar tiempos ===
 plt.figure(figsize=(10,6))
 sns.lineplot(data=df, x="N", y="Tiempo_ms", hue="Algoritmo", marker="o")
 plt.xscale("log")  
@@ -54,7 +54,7 @@ plt.show()
 
 
 
-# === 2. Graficar memoria en MB  ===
+# ===  Graficar memoria  ===
 plt.figure(figsize=(10,6))
 sns.barplot(data=df, x="N", y="Memoria_MB", hue="Algoritmo", palette="viridis")
 plt.title("Comparación de memoria por algoritmo")
@@ -74,7 +74,7 @@ plt.savefig("../data/plots/memoria_algoritmos_barras.png")
 plt.show()
 
 
-# === 3. Graficar tiempos para N = 10^1 ===
+# === Graficar tiempos para N = 10^1 ===
 df_n10 = df[df["N"] == 10]  
 
 plt.figure(figsize=(8,6))
@@ -86,7 +86,7 @@ plt.tight_layout()
 plt.savefig("../data/plots/tiempo_algoritmos_N10_barra.png")
 plt.show()
 
-# === 4. Graficar tiempos para N = 10^1 ===
+# === Graficar tiempos para N = 10^3 ===
 df_n1000 = df[df["N"] == 1000]  
 
 plt.figure(figsize=(8,6))
@@ -99,7 +99,7 @@ plt.savefig("../data/plots/tiempo_algoritmos_N100_barra.png")
 plt.show()
 
 
-# === 5. Graficar tiempos para N = 10^1 ===
+# === Graficar tiempos para N = 10^5 ===
 df_n100000 = df[df["N"] == 100000] 
 
 plt.figure(figsize=(8,6))
@@ -111,7 +111,7 @@ plt.tight_layout()
 plt.savefig("../data/plots/tiempo_algoritmos_N100000_barra.png")
 plt.show()
 
-# === 6. Comparación por distribución ===
+# === Graficar por distribución ===
 df_n100k = df[df["N"] == 100000]  
 
 plt.figure(figsize=(10,6))

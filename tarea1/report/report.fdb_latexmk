@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber report"] 1775426313.78176 "report.bcf" "report.bbl" "report" 1775536994.67138 0
-  "report.bcf" 1775536994 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
+["biber report"] 1775426313.78176 "report.bcf" "report.bbl" "report" 1775578255.20823 0
+  "report.bcf" 1775578254 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1775536990.9065 "c:/Users/pc/OneDrive - Universidad Técnica Federico Santa María/Attachments/Tarea1_algoco/tarea1/report/report.tex" "report.pdf" "report" 1775536994.67241 0
+["pdflatex"] 1775578248.94742 "c:/Users/pc/OneDrive - Universidad Técnica Federico Santa María/Attachments/Tarea1_algoco/tarea1/report/report.tex" "report.pdf" "report" 1775578255.20917 0
   "../code/matrix_multiplication/data/plots/memoria_matrices.png" 1775515848 54381 1e2ea67b41300baa7d1832cb7687e6ee ""
   "../code/matrix_multiplication/data/plots/tiempo_matrices_por_distribucion.png" 1775515849 25930 7866e73648d6a8e5383a39e4445b1a05 ""
   "../code/matrix_multiplication/data/plots/tiempos_matrices.png" 1775515845 49846 24757eac19029db489bdda796316eb2e ""
@@ -317,14 +317,14 @@
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1775350026 3648401 5f83017bc39f0ea4c620c844c7dffb30 ""
   "c:/texlive/2026/texmf.cnf" 1775349786 713 e69b156964470283e0530f5060668171 ""
   "preamble.tex" 1775342452 2249 4b0cc777241a9fa0f82b663d831cc656 ""
-  "report.aux" 1775536994 3490 3478d33453da36839f197dce12aea0fd "pdflatex"
+  "report.aux" 1775578254 3490 3478d33453da36839f197dce12aea0fd "pdflatex"
   "report.bbl" 1775426315 486 76d65a242ec496c9b4361af646ff12cb "biber report"
-  "report.out" 1775536994 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
-  "report.run.xml" 1775536994 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
+  "report.out" 1775578254 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
+  "report.run.xml" 1775578254 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
   "report.tex" 1775342452 1119 91aa17fd16c6005eb4908cc926fc00d7 ""
-  "sections/conclusions.tex" 1775536990 1638 8997e96b85378d2c46d2f7b71e725509 ""
-  "sections/experiment_intro.tex" 1775536656 1141 9a44646966abbad2a985e916b43114b2 ""
-  "sections/experiment_results.tex" 1775536267 8172 1c1f820a65c88c578c05f771d6420f88 ""
+  "sections/conclusions.tex" 1775578246 1634 18a72684966991bafd07e316a017d6e3 ""
+  "sections/experiment_intro.tex" 1775536995 1141 9a44646966abbad2a985e916b43114b2 ""
+  "sections/experiment_results.tex" 1775536996 8172 1c1f820a65c88c578c05f771d6420f88 ""
   (generated)
   "report.aux"
   "report.bcf"

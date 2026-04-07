@@ -1,7 +1,7 @@
 #include <vector>
 using namespace std;
 //https://www.geeksforgeeks.org/dsa/strassens-matrix-multiplication-algorithm-implementation/
-//Se utilizo chatgpt para que utilizara vectores para una mejor comparación de algoritmos
+//Se modificó para que utilizara vectores para una mejor comparación de algoritmos
 
 typedef vector<vector<int>> Matrix;
 Matrix add(const Matrix& A, const Matrix& B) {

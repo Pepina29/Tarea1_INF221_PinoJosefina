@@ -46,7 +46,7 @@ for file in files:
 df = pd.DataFrame(data_list)
 df = df.sort_values("Dimensión")
 
-# === 1. Graficar tiempo ===
+# === Graficar tiempo ===
 plt.figure(figsize=(10,6))
 sns.lineplot(data=df, x="Dimensión", y="Tiempo_ms", hue="Algoritmo", marker="o")
 plt.yscale("log")  
@@ -60,7 +60,7 @@ os.makedirs("../data/plots", exist_ok=True)
 plt.savefig("../data/plots/tiempos_matrices.png")
 plt.show()
 
-# === 2. Graficar memoria ===
+# === Graficar memoria ===
 plt.figure(figsize=(10,6))
 sns.lineplot(data=df, x="Dimensión", y="Memoria_MB", hue="Algoritmo", marker="o")
 plt.title("Comparación de memoria por algoritmo de multiplicación de matrices")
@@ -72,8 +72,8 @@ plt.tight_layout()
 plt.savefig("../data/plots/memoria_matrices.png")
 plt.show()
 
-# === 3. Comparación por distribución (para una dimensión específica) ===
-df_dim16 = df[df["Dimensión"] == 16]  # puedes cambiar a otra dimensión
+# === Graficar por distribución ===
+df_dim16 = df[df["Dimensión"] == 16]  
 
 plt.figure(figsize=(8,6))
 sns.barplot(
